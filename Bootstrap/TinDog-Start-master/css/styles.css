@@ -16,12 +16,19 @@
     font-size: 3rem;
     line-height: 1.5;
   }
-  .container-fluid {
-    padding: 3% 15%;
+
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
   }
 
-  .rotate {
-    transform: rotate(25deg); /* Equal to rotateZ(45deg) */
+  p {
+    color: #8f8f8f;
+  }
+
+  .container-fluid {
+    padding: 3% 15% 7%;
   }
 
   #title {
@@ -59,12 +66,15 @@
   .title-image {
     width: 60%;
     transform: rotate(30deg);
+    position: absolute;
+    right: 30%;
   }
 
 /* features section */
   #features {
+    background-color: #fff;
     padding: 7% 7%;
-    /* margin: 10%; */
+    position: relative;
   }
 
   .feature-box {
@@ -87,16 +97,11 @@
     font-weight: bold;
   }
 
-  .feature-detail {
-    color: #8f8f8f;
-  }
-
   /* testimonial section */
 
   #testimonials {
     background-color: #ef8172;
     color: #fff;
-    padding: 7% 10%;
     text-align: center;
   }
 
@@ -104,6 +109,10 @@
     width: 10%;
     border-radius: 100%;
     margin: 20px;
+  }
+
+  .carousel-item {
+    padding: 7% 15%;
   }
 
   #press {
@@ -115,4 +124,15 @@
   .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
+  }
+
+  /* pricing section */
+
+  #pricing {
+    padding: 100px;
+    text-align: center;
+  }
+
+  .pricing-column {
+    padding: 3% 2%;
   }
