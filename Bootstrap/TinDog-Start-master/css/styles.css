@@ -27,15 +27,18 @@
     padding: 7% 15%;
   }
 
-
-  #cta {
+  /* sections  */
+  .dark-section {
     background-color: #ff4c68;
     color: #fff;
-    margin-bottom: -20px;
   }
 
-  #footer {
+  .light-section {
     background-color: #fff;
+  }
+
+  #cta {
+    margin-bottom: -20px;
   }
 
   #footer i {
@@ -68,10 +71,7 @@
     margin: 5% 3% 5% 0;
   }
 
-
   #title {
-    background-color: #ff4c68;
-    color: #fff;
     text-align: left;
   }
 
@@ -89,7 +89,6 @@
 
   /* features section */
   #features {
-    background-color: #fff;
     position: relative;
   }
 
@@ -111,9 +110,9 @@
   }
 
   /* testimonial section */
+
   #testimonials {
     background-color: #ef8172;
-    color: #fff;
   }
 
   .testimonial-text {

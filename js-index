@@ -1,0 +1,8 @@
+var myNum;
+var name = prompt("Hello, what's your name?");
+alert("Hello, " + name);
+
+myNum = 2;
+myNum++;
+
+alert(myNum);

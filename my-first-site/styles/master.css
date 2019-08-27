@@ -1,0 +1,38 @@
+h1, p {
+  font-family: Arial, sans-serif;
+}
+
+p {
+  font-family: Arial, sans-serif;
+}
+
+.title-image {
+  background-image: url("../images/world-colourful.png"), linear-gradient(#9be2b3, #9bd1e2);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  text-align: center;
+  top: 25%;
+  left: 25%;
+  position: absolute;
+  /* background-color: rgb(168, 215, 217); */
+}
+
+.title h1 {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 60px;
+  text-shadow: 1px 1px 10px black;
+  color: #fff;
+}
+
+.footer {
+  font-size: 10px;
+  opacity: 0.5;
+  text-align: center;
+  background-color: #eee;
+  padding: 10px;
+}
