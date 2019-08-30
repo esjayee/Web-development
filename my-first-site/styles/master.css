@@ -6,26 +6,44 @@ p {
   font-family: Arial, sans-serif;
 }
 
-.title-image {
-  background-image: url("../images/world-colourful.png"), linear-gradient(#9be2b3, #9bd1e2);
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.title-image2 {
+  background-image: linear-gradient(to left, #e8a93c, #9be2b3, #9bd1e2, #b84fd2);
+  height: 100vh;
+  width: 100%;
+
+  background-position: left;
+  background-size: 300%, 300%;
+  position: absolute;
+
+  animation: bg-animation 12s infinite alternate ease-in;
+
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
 }
 
 .title {
-  text-align: center;
-  top: 25%;
-  left: 25%;
+  background-image: url("../images/world-colourful.png");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: absolute;
-  /* background-color: rgb(168, 215, 217); */
 }
 
 .title h1 {
   font-family: 'Alegreya Sans', sans-serif;
-  font-size: 60px;
+  font-size: 100px;
   text-shadow: 1px 1px 10px black;
+  text-align: center;
+  line-height: 100vh;
   color: #fff;
 }
 
@@ -35,4 +53,7 @@ p {
   text-align: center;
   background-color: #eee;
   padding: 10px;
+  position: absolute;
+    width: 100%;
+    top: 102vh;
 }
