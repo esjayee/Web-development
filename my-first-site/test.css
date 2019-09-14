@@ -1,0 +1,43 @@
+body {
+  font-family: Arial;
+  color: white;
+  height: 100vh;
+  background:
+
+  linear-gradient(to bottom,
+    transparent 47%,
+    red 47% 53%,
+    transparent 53%),
+
+    linear-gradient(to right,
+      transparent 47%,
+      red 47% 53%,
+      transparent 53%),
+
+    linear-gradient(to right,
+      transparent 45%, white 45% 47%,
+      transparent 47% 53%,
+      white 53% 55%,
+      transparent 55%),
+
+    linear-gradient(to bottom,
+      transparent 45%, white 45% 47%,
+      transparent 47% 53%,
+      white 53% 55%,
+      transparent 55%),
+
+    linear-gradient(45deg,
+      transparent 45%, white 45% 47%,
+      red 47% 53%,
+      white 53% 55%,
+      transparent 55%),
+
+    linear-gradient(-45deg,
+      transparent 45%, white 45% 47%,
+      red 47% 53%,
+      white 53% 55%,
+      transparent 55%),
+
+    blue;
+
+}
